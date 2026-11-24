@@ -12,6 +12,7 @@ st.subheader("Team 73, Web Development - Section D")
 st.subheader("Emma Norman, Jaeyun Park")
 
 # TODO (optional): Add a group photo to the images folder and show it here, for example:
+project_folder = Path(__file__).resolve().parent
 st.image(str(project_folder / "images" / "emma.JPG"))
 st.image(str(project_folder / "images" / "JP.jpg"))
 
